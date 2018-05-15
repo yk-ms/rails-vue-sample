@@ -7,8 +7,11 @@
 
 import Vue from 'vue'
 import App from '../app'
+import '../assets/application'
 
-import '../assets/application';
+import Input from '../components/shared/input'
+
+Vue.component('vue-input', Input)
 
 document.addEventListener('DOMContentLoaded', () => {
   const el = document.body.appendChild(document.createElement('hello'))

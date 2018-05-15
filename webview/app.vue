@@ -2,6 +2,7 @@
   <div id="app">
     <header-component />
     <p>{{ message }}</p>
+    <vue-input />
     <footer-component />
   </div>
 </template>
