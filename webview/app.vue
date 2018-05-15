@@ -25,7 +25,6 @@ export default {
 
 <style scoped>
 p {
-  font-size: 2em;
-  text-align: center;
+  color: red
 }
 </style>

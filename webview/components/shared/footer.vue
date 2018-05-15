@@ -3,7 +3,7 @@
 </template>
 
 <style scoped>
-  hooter {
+  footer {
     background: #EEE;
   }
 </style>
