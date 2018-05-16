@@ -7,16 +7,20 @@
 
 import Vue from 'vue'
 import App from '../app'
+import VueRouter from 'vue-router'
+import Router from '../router/router'
 import '../assets/application'
 
 import Input from '../components/shared/input'
 
 Vue.component('vue-input', Input)
+Vue.use(VueRouter)
 
 document.addEventListener('DOMContentLoaded', () => {
   const el = document.body.appendChild(document.createElement('hello'))
   const app = new Vue({
     el,
+    router: Router,
     render: h => h(App)
   })
 

@@ -1,5 +1,7 @@
 <template>
-  <footer>FooterComponent</footer>
+  <footer>
+    <router-link to="/about">About</router-link>
+  </footer>
 </template>
 
 <style scoped>

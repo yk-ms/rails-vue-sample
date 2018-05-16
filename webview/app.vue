@@ -1,8 +1,7 @@
 <template>
   <div id="app">
     <header-component />
-    <p>{{ message }}</p>
-    <vue-input />
+    <router-view />
     <footer-component />
   </div>
 </template>
