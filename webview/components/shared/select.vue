@@ -14,10 +14,13 @@
         </option>
       </select>
     </div>
+    <a class="btn" v-on:click="submit">Button</a>
   </div>
 </template>
 
 <script>
+import axios from 'axios'
+
 export default {
   name: 'name',
   data () {
@@ -30,6 +33,14 @@ export default {
         {id: 3, name: 'Report'},
       ],
       tags: []
+    }
+  },
+  methods: {
+    submit: function() {
+      axios.get('/api/tasks').then((response) => {
+      }, (error) => {
+          this.$router.push('/about')
+      });
     }
   }
 }
