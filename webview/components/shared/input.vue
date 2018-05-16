@@ -9,6 +9,9 @@
           <input class="input" type="text" v-model="name" placeholder="名前を入力してください。">
         </p>
         <p class="name">Value: {{ name }}</p>
+        <div v-if="name === 'hoge'">
+          <p>hoge</p>
+        </div>
       </div>
     </div>
   </div>

@@ -2,6 +2,7 @@
   <div>
     <p>{{ message }}</p>
     <vue-input />
+    <vue-select />
   </div>
 </template>
 

@@ -12,8 +12,10 @@ import Router from '../router/router'
 import '../assets/application'
 
 import Input from '../components/shared/input'
+import Select from '../components/shared/select'
 
 Vue.component('vue-input', Input)
+Vue.component('vue-select', Select)
 Vue.use(VueRouter)
 
 document.addEventListener('DOMContentLoaded', () => {
